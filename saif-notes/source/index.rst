@@ -11,10 +11,9 @@ Welcome to Saif's Notes's documentation!
    :caption: Contents:
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+..
+ Indices and tables
+ ==================
+ * :ref:`genindex`
+ * :ref:`modindex`
+ * :ref:`search`
