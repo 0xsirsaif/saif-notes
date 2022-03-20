@@ -10,6 +10,7 @@ Saif's Notes!
    :maxdepth: 2
    :caption: Contents:
 
+   python-tools
 
 ..
  Indices and tables
