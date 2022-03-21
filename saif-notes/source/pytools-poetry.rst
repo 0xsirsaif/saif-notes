@@ -13,7 +13,7 @@ Commands
     curl -sSL https://install.python-poetry.org | POETRY_HOME=[/the/path/you/want] python3 -
 
 
-* then, add ``export PATH="/media/data/linuxthings/poetry/bin:$PATH"`` to ``.bashrc`` file. 
+* then, add ``export PATH="/the/path/you/want/poetry/bin:$PATH"`` to ``.bashrc`` file. 
 
 
 2. **Virtualenvs**
@@ -26,7 +26,7 @@ Commands
 
 .. code:: bash
 
-    poetry config virtualenvs.path /media/data/linuxthings/poetryenvs/
+    poetry config virtualenvs.path /the/path/you/want
 
 
 3. **Install Packages**
