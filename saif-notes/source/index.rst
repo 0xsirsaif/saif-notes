@@ -7,10 +7,11 @@ Saif's Notes!
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    python-tools
+   Finance
 
 ..
  Indices and tables
