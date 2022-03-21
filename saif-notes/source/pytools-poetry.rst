@@ -6,7 +6,7 @@ Poetry is a tool for dependency management and packaging in Python.
 Commands
 -------------
 
-1. Installation
+1. **Installation**
 
 .. code:: bash
 
@@ -16,7 +16,7 @@ Commands
 * then, add ``export PATH="/media/data/linuxthings/poetry/bin:$PATH"`` to ``.bashrc`` file. 
 
 
-2. Virtualenvs
+2. **Virtualenvs**
 
 * It will first check if it’s currently running inside a virtual environment.
 
@@ -29,7 +29,7 @@ Commands
     poetry config virtualenvs.path /media/data/linuxthings/poetryenvs/
 
 
-3. Install Packages
+3. **Install Packages**
 
 * The install command reads the ``poetry.lock`` file or ``pyproject.toml``
 
