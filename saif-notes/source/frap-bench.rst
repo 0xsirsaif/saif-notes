@@ -8,30 +8,30 @@ Common commands
 
 .. code:: bash
 
-    `bench get-app [OPTIONS: --branch] [NAME] GIT_URL`
+    bench get-app [OPTIONS: --branch] [NAME] GIT_URL
 
 2. **Create a new site**
 
 .. code:: bash
 
-    `bench  new-site [OPTIONS: --db-name] SITE`
+    bench  new-site [OPTIONS: --db-name] SITE
 
 3. **Use site**
 
 .. code:: bash
 
-    `bench use SITE`
+    bench use SITE
 
 4. **Install a new app to site, supports multiple apps**
 
 .. code:: bash
 
-    `bench  install-app [APP1 APP2 ..]`
+    bench  install-app [APP1 APP2 ..]
 
 5. **List apps in site**
 
 .. code:: bash
 
-    `bench  list-apps [OPTIONS: --format:[text|json]]`
+    bench  list-apps [OPTIONS: --format:[text|json]]
 
 
