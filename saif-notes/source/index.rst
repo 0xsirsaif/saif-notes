@@ -11,7 +11,9 @@ Saif's Notes!
    :caption: Contents:
 
    Languages
+   Tools
    Python-tools
+   command-line
    Finance
 
 ..
