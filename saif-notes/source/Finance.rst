@@ -5,4 +5,4 @@ Accounting and Finance
    :maxdepth: 2
    :caption: Contents:
 
-   fin-frappe-erp
+   Fin-frappe-erp
