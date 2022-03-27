@@ -3,19 +3,23 @@ vim
 
 1. Copy and Paste line
 
-.. code::
+    .. code::
 
-    To copy a line requires two commands: yy or Y ("yank") and either p ("put below") or P ("put above").
+        To copy a line requires two commands: yy or Y ("yank") and either p ("put below") or P ("put above").
 
 2. Delete line
 
-.. code::
+    .. code::
 
-    dd
+        dd
 
-3. Delete all white spaces at the beggining of the command-line
+3. Cut from here to..
 
-    .. code-block:: vim
+    .. code-block::
 
-        dw
+        # cut from here to next word
+        dw 
+        # cut from here to the end of the current word
+        de
+    
     
