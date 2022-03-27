@@ -12,3 +12,10 @@ vim
 .. code::
 
     dd
+
+3. Delete all white spaces at the beggining of the command-line
+
+    .. code-block:: vim
+
+        dw
+    

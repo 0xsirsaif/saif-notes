@@ -12,13 +12,14 @@ Command line
 
 2. How to put backup.sql.gz into database?
 
+    
     .. code-block:: bash
 
         zcat <backupFile.sql.gz> | mysql -u<USER> -p<PASSWORD> <DB_NAME>
-    
+
     * ``zcat`` compress or expand files
-    * A  pipeline is a sequence of one or more commands separated by one of the control operators | or |&.
+    * A  pipeline is a sequence of one or more commands separated by one of the control operators ``|`` or ``|&``.
     
       * The standard output of command is connected  via  a  pipe  to  the  standard  input  of  command2.
-      *  
+  
      
