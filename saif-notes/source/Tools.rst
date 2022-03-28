@@ -8,3 +8,4 @@ System Tools
 
    Tool-vim
    Tool-Git
+   Tool-unix-commands
