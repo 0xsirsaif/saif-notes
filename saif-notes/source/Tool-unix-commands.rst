@@ -11,3 +11,6 @@ grep
     .. code-block:: bash
 
         ls | grep .[ext]
+
+        # recursively
+        ls | grep -r .[ext]

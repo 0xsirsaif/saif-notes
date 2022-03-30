@@ -7,3 +7,4 @@ Programming Languages Notes
    :caption: Contents:
 
    Lang-C
+   Lang-py

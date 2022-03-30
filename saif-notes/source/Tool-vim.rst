@@ -7,11 +7,13 @@ vim
 
         To copy a line requires two commands: yy or Y ("yank") and either p ("put below") or P ("put above").
 
-2. Delete line
-
+2. Cut line
+      
     .. code::
-
+        
         dd
+        # you can paste it by..
+        p
 
 3. Cut from here to..
 
