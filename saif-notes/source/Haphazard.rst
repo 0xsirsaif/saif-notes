@@ -1,5 +1,7 @@
-Topics to learn and search 
-============================
+Haphazard things 
+=================
+
+**Topics to learn and search**
 
 Languages
 -----------
