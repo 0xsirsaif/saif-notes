@@ -16,6 +16,8 @@ Saif's Notes!
    Python-tools
    command-line
    Finance
+   Haphazard
+   
    
 
 ..
