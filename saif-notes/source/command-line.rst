@@ -67,7 +67,10 @@ Command line
 
     ``^\`` sends ``SIGQUIT`` (default behaviour: terminate + produce a core dump) which can be useful to kill things that normally catch ``^C`` ``(SIGINT)``.
 
-9. 
+
+9. exec "$SHELL" reload the SHELL in-place
+
+
 
 
 

@@ -10,3 +10,10 @@ Languages
 * Julia
 * Zig
 * Rust
+* bash
+
+
+Tools
+-------
+
+* brew
