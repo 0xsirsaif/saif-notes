@@ -7,4 +7,5 @@ Git
 
 
    Git-ignore-tricks
+   Git-tricks
    
