@@ -70,6 +70,9 @@ Command line
 
 9. exec "$SHELL" reload the SHELL in-place
 
+10. ```apt list --upgradable`` List upgradable packages
+
+
 
 
 
