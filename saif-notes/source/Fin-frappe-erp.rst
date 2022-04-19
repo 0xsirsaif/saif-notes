@@ -6,3 +6,4 @@ Frappe and Erpnext
    :caption: Contents:
 
    frap-bench
+   frap-problems
