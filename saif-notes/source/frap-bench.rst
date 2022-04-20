@@ -1,9 +1,6 @@
 Bench Commads
 ===================
 
-Common commands
------------------
-
 1. **Clone an app from the internet or filesystem and set it up in your bench**
 
 .. code:: bash
