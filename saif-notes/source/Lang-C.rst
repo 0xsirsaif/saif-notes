@@ -1,4 +1,4 @@
-C Language
+C
 ===========
 
 .. toctree::

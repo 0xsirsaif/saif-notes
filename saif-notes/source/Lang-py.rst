@@ -1,4 +1,4 @@
-Python Tips
+Python
 ============
 
 1. ``[somestr]!r``, ``[somestr]!s``, and ``[somestr]!a``

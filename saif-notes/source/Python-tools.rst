@@ -1,4 +1,4 @@
-Python tools Notes
+Python tools
 ===================
 
 .. toctree::
