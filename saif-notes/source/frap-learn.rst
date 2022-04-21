@@ -4,7 +4,7 @@ Guide to master frappe framework
 * .. toggle-header::
     :header: **Different docs**
 
-    * `Frappe Framework <https://frappeframework.com/>`
+    * `Frappe Framework <https://frappeframework.com/>`_
 
 * .. toggle-header::
     :header: **Frappe Technologies**
@@ -79,9 +79,3 @@ Guide to master frappe framework
 
         * **Very Important** `Docs <https://frappeframework.com/docs/v13/user/en/python-api/routing-and-rendering>`_
 
-
-* .. toggle-header::
-    :header: **APIs**
-
-* .. toggle-header::
-    :header: **APIs**
