@@ -2,23 +2,27 @@ Frappe framework plain informations
 =====================================
 
 
-* the ``assets folder``
-
+* .. toggle-header::
+    :header: **the assets folder**
+    
     * static files served from ``bench/sites/assets``
     * nginx serves this folder directly
     * urls, ``assets/[any-file.(ext)]``
 
-* the ``public`` folder
+* .. toggle-header::
+    :header: **the public folder**
     
     * each app has its own public folder which can be used to serve static files 
-    * symlinked to ``bench/sites/assets/[app-name]
+    * symlinked to ``bench/sites/assets/[app-name]``
 
-* Backup and restore guide
+* .. toggle-header::
+    :header: **Backup and restore guide**
 
     * got to ``home/settings/download-backups``, you got (db backup and file backup (via email))
     * neet to setup email ``(email domain - > email account -> )``
 
-* Hooks
+* .. toggle-header::
+    :header: **Hooks**
 
     * allow an app to override the standard implementation or extend it
     * if the hook is defined in multiple apps, the values will be collected from those apps.
@@ -27,3 +31,4 @@ Frappe framework plain informations
     * JS/CSS assets to inject static JS and CSS assets
         * 
 
+    
