@@ -16,6 +16,7 @@ Saif's Notes!
    Python-tools
    command-line
    Finance
+   Project-ideas
    Haphazard
    
    

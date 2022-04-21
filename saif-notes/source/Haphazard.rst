@@ -18,4 +18,4 @@ Tools
 
 * brew
 * Chrome Developer Tool
-* 
+* pre-commit
