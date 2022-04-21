@@ -7,3 +7,4 @@ Frappe and Erpnext
 
    frap-bench
    frap-problems
+   frap-dev-info

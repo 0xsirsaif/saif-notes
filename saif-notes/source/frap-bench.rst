@@ -31,4 +31,5 @@ Bench Commads
 
     bench  list-apps [OPTIONS: --format:[text|json]]
 
-
+6. ``bench src`` Prints bench source folder path, which can be used to cd into the bench installation repository by ``cd $(bench src)``.
+7. 
