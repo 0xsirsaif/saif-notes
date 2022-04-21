@@ -2,7 +2,7 @@ Frappe and Erpnext
 =======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    frap-bench
