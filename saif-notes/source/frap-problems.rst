@@ -9,7 +9,8 @@ frappe/erpnext topic to search
       * ``get_pdf()`` utility func to generate pdfs from html `doc <https://frappeframework.com/docs/v13/user/en/api/utils#get_pdf>`_
       * 
 * how to restore backup using ``bench`` instead of ``zcat``
-* Low Performance in the development, see `Erpnext performance tuning wiki <>`_
+* Low Performance in the development, see `Erpnext performance tuning wiki <https://github.com/frappe/erpnext/wiki/ERPNext-Performance-Tuning>`_
+* 
 * update bench cli, not the Bench
 * backup: sql and files (private and public files)? `guide <https://docs.erpnext.com/docs/v13/user/manual/en/setting-up/data/download-backup>`_
 * nginx in production?
