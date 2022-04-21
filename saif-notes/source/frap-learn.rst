@@ -73,7 +73,6 @@ Guide to master frappe framework
     :header: **Core/Under-the-hood**
 
     * Frappe attaches itself to the ``window`` object under the ``frappe`` namespace.
-    * 
     * .. toggle-header::
         :header: **Request Cycle**
 
