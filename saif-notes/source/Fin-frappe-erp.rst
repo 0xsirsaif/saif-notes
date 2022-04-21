@@ -8,3 +8,5 @@ Frappe and Erpnext
    frap-bench
    frap-problems
    frap-dev-info
+   frap-learn
+   frap-reverse-eng

@@ -17,3 +17,5 @@ Tools
 -------
 
 * brew
+* Chrome Developer Tool
+* 
