@@ -19,3 +19,5 @@ frappe/erpnext topic to search
 * Ultimate guide for public folder customizations
 * ``hooks.py`` attributes
 * ``www`` folder
+* frappe setup env and the pyenv
+* 

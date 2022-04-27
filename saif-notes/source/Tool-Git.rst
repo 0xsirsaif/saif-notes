@@ -6,6 +6,6 @@ Git
    :caption: Contents:
 
 
-   Git-ignore-tricks
-   Git-tricks
+   Tool-Git-ignore-tricks
+   Tool-Git-tricks
    

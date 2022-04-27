@@ -7,3 +7,4 @@ Python tools
 
    pytools-poetry
    pytools-sphinx
+   pytools-pyenv

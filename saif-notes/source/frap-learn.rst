@@ -78,3 +78,6 @@ Guide to master frappe framework
 
         * **Very Important** `Docs <https://frappeframework.com/docs/v13/user/en/python-api/routing-and-rendering>`_
 
+* Address and Address template
+* HTML field type
+* 

@@ -18,6 +18,7 @@ Saif's Notes!
    Finance
    Project-ideas
    Haphazard
+   Admin
    
    
 
