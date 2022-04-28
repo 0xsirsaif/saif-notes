@@ -8,3 +8,6 @@ System Tools
 
    Tool-vim
    Tool-Git
+   Tool-poetry
+   Tool-sphinx
+   Tool-pyenv

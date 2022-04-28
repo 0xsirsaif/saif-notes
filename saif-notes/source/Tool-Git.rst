@@ -1,11 +1,12 @@
 Git
 ===========
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+Remote
+-------
 
+* **rename existing git Remote:** ``git remote rename [old-name] [new-name]``
 
-   Tool-Git-ignore-tricks
-   Tool-Git-tricks
-   
+.gitignore
+-----------
+
+* **How to ignore any file without extensions?:** ``ignore everything (*), then unignores anything that is a directory (!*/), the unignores all files with an extension (!*.*)`` 
