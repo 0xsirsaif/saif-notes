@@ -13,7 +13,6 @@ Saif's Notes!
    Languages
    Books
    Tools
-   Python-tools
    command-line
    Finance
    Project-ideas
