@@ -1,3 +1,4 @@
 {
-    "esbonio.sphinx.confDir": ""
+    "esbonio.sphinx.confDir": "",
+    "python.defaultInterpreterPath": "~/.pyenv/versions/3.10.4/envs/saif-notes/"
 }

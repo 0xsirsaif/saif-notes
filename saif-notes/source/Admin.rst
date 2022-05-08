@@ -5,4 +5,4 @@ System (Ubuntu) Adminstration and Prblems
 * move directories from ``home/user`` another drive: ``pyenv``, ``poetry``, ``homebrew``.. `Moving pyenv root <https://github.com/pyenv/pyenv/issues/226>`_
 * Can't run the installed packages direclty from the commad line, but should run it strating from `/home`: I think it's a `bashrc` problem or something
 * Maintain Ubuntu package list
-*  
+* github SSH
