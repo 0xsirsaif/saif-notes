@@ -27,3 +27,4 @@ apt
 * ``dpkg -S path/to/file`` - find which package provides this file (for instance dpkg -S "$(which dc)")
 * ``aptitude why $pkg`` - **tell me why a particular package is installed**
 * ``apt list --upgradable``: List upgradable packages
+* ``sudo add-apt-repository --remove ppa:something/ppa`` to remove ppa repository
