@@ -10,6 +10,7 @@ Command line
 * ``!$``: A substitution which contains the last segment of the previous command: ``$ cd test.py -> test.py not a directory -> $ vim !$ -> vim test.py``
 * ``^\`` **more powerful than** ``^C``: ``^\`` sends ``SIGQUIT`` (default behaviour: terminate + produce a core dump) which can be useful to kill things that normally catch ``^C`` ``(SIGINT)``.
 * ``exec "$SHELL"``: reload the SHELL in-place
+* ``tail/head [-n numOfLines | -f (following real-time updates inside the file))] [file-name or * (all files here)]``: print last/first number of lines 
 
 
 grep

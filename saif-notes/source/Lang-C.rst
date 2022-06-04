@@ -7,4 +7,3 @@ C
 
 
    C-misc
-   C-headers
