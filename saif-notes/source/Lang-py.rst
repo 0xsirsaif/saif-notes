@@ -35,7 +35,9 @@ Python
   
       * `from glob import glob; glob(os.path.join('', 'glob-pattern'))`
       * `Path('').glob('glob-pattern')`, without importing `glob`
-  * Read: `with open(path, 'r') as f; data = f.read()` don't forget to close it | `data = Path("").read_text()`
-  * When utilising pathlib, you no longer need to use the context manager directly if all you want to do is read or write text (or bytes).
+
+
+   * Read: `with open(path, 'r') as f; data = f.read()` don't forget to close it | `data = Path("").read_text()`
+   * When utilising pathlib, you no longer need to use the context manager directly if all you want to do is read or write text (or bytes).
 
 
