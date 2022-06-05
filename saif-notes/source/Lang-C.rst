@@ -6,4 +6,4 @@ C
    :caption: Contents:
 
 
-   C-misc
+   Lang-C-misc
