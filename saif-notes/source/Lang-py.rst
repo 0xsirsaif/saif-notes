@@ -31,8 +31,14 @@ Python
       * ``from glob import glob; glob(os.path.join('', 'glob-pattern'))``
       * ``Path('').glob('glob-pattern')``, without importing ``glob``
 
-
+e
    * Read: ``with open(path, 'r') as f; data = f.read()`` don't forget to close it | ``data = Path("").read_text()``
    * When utilising pathlib, you no longer need to use the context manager directly if all you want to do is read or write text (or bytes).
 
 
+2. **Socket Programming**
+
+   * processes can interact with each others via TCP socket, a way to transmit bytes among computer systems. sockets are created by the server and clients send a request that must be accepted.
+   * see example in the misc repo `0xsirsaif/misc <https://github.com/0xsirsaif/misc>`_
+   * Resources: `real python socket guide <https://realpython.com/python-sockets>`_ 
+   * ``socket.AF_INET, socket.SOCK_STREAM``: constants used to specify *the address family* and *socket type*. ``AF_INET`` is the Internet address family for IPv4. ``SOCK_STREAM`` is the socket type for TCP, the protocol that will be used to transport messages in the network.
