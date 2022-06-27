@@ -13,6 +13,10 @@ Command line
 * ``tail/head [-n numOfLines | -f (following real-time updates inside the file))] [file-name or * (all files here)]``: print last/first number of lines 
 
 
+lsof: list open files
+**********************
+* ``lsof -i:<port>`` To list any process listening on specific port. To kill it ``kill -9 $(lsof -i:<port>)``.
+
 grep
 *****
 * The grep command expects either a file (or, in the case of -r, directory) name or input from the standard input stream.
