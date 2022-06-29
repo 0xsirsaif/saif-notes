@@ -21,6 +21,10 @@ grep
 *****
 * The grep command expects either a file (or, in the case of -r, directory) name or input from the standard input stream.
 
+curl
+*****
+* ``curl -X [POST/DELETE/PUT..etc] [URL]``, use ``-X`` (HTTP)  Specifies  a custom request method to use when communicating with the HTTP server. 
+
 apt
 ****
 * ``apt update`` - update the package metadata (this is necessary to see latest packages and **should be done before installing**)
