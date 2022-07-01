@@ -6,3 +6,4 @@ System (Ubuntu) Adminstration and Prblems
 * Can't run the installed packages direclty from the commad line, but should run it strating from `/home`: I think it's a `bashrc` problem or something
 * Maintain Ubuntu package list
 * github SSH
+* Perform HDD Fregmentation in Ubuntu??
