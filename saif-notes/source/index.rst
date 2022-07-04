@@ -18,6 +18,7 @@ Saif's Notes!
    Project-ideas
    Haphazard
    Admin
+   Projects
    
    
 

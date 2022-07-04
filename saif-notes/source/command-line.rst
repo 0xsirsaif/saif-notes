@@ -37,3 +37,10 @@ apt
 * ``aptitude why $pkg`` - **tell me why a particular package is installed**
 * ``apt list --upgradable``: List upgradable packages
 * ``sudo add-apt-repository --remove ppa:something/ppa`` to remove ppa repository
+
+
+Users and Groups
+*****************
+* ``groups`` to show all groups in the system.
+* ``groupadd [group-name]`` create group.
+* ``usermod -aG [group-name] [user-name]`` add user to a group.

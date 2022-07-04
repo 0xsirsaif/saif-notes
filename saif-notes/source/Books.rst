@@ -6,3 +6,4 @@ Books Notes
    :caption: Contents:
 
    book-ostep
+   book-mastering-ubuntu-server
