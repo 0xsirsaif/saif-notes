@@ -7,3 +7,4 @@ Books Notes
 
    book-ostep
    book-mastering-ubuntu-server
+   book-computer-sys-app
