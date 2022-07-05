@@ -44,3 +44,8 @@ Users and Groups
 * ``groups`` to show all groups in the system.
 * ``groupadd [group-name]`` create group.
 * ``usermod -aG [group-name] [user-name]`` add user to a group.
+
+
+nano
+*****
+* ``ctrl+ s`` and ``ctrl + x`` save and exit.
