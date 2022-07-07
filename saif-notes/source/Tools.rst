@@ -6,6 +6,7 @@ System Tools
    :caption: Contents:
 
 
+   Tool-pytest
    Tool-vim
    Tool-Git
    Tool-poetry
