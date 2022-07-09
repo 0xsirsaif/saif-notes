@@ -32,4 +32,11 @@ Chapter 1: A Tour of Computer Systems
 * A system spends a lot of time moving information from one place to another. From a programmer’sperspective, much of this copying is overhead that slows down the “realwork”of the program. Thus. a major goal for system designers is to make these copy operations run as fast as possible.
 * As semiconductor technology progresses over the years. this processor—memory gap continues to increase. It is easier and cheaper to make processors run faster than it is to make main memory run faster. (paper: It's the memory, STUPID). Here (Cache) comes, they are implemented with a hardware technology known as **static random access memory** (SRAM).
 * The idea behind caching is that a system can get the effect of both a very large memory and a very fast one by **exploiting locality**, the tendency for programs **to access data and code in localized regions**. By setting up caches to hold data that are likely to be accessed often, we can perform most memory operations using the fast caches. application programmers who are aware of cache memories can exploit them to improve the performance of their programs by an order of magnitude.
-*  
+* The main idea of a memory hierarchy is that storage at one level serves as a cache for storage at the next lower level. On some networked systems with distributed file systems, the local disk serves as a cache for data stored on the disks of other systems.
+* The operating system has two primary purposes: 
+ 
+    * (1) to protect the hardware from misuse by runaway applications and 
+    * (2) to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices. 
+    * The operating system achieves both goals via the fundamental abstractions shown in Figure 1.11: processes, virtual memory, and files. As this figure suggests, files are abstractions for I/O devices, virtual memory is an abstraction for both the main memory and disk 1/0 devices, and processes are abstractions for the processor, main memory, and I/O devices.
+
+.. image:: ../static/cs-app-fig-11.png

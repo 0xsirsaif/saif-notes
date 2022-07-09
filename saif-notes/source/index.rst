@@ -19,6 +19,7 @@ Saif's Notes!
    Haphazard
    Admin
    Projects
+   Deployment
    
    
 
