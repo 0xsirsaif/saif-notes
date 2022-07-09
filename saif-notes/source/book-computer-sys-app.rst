@@ -40,3 +40,38 @@ Chapter 1: A Tour of Computer Systems
     * The operating system achieves both goals via the fundamental abstractions shown in Figure 1.11: processes, virtual memory, and files. As this figure suggests, files are abstractions for I/O devices, virtual memory is an abstraction for both the main memory and disk 1/0 devices, and processes are abstractions for the processor, main memory, and I/O devices.
 
 .. image:: ../static/cs-app-fig-11.png
+
+* The operating system provides the illusion that the program is the only one running on the system. The program appears to have exclusive use of both the processor, main memory, and I/O devices. The processor appears to execute the instructions in the program. one after the other, without interruption. And the code and data of the program appear to be the only objects in the system’s memory. These illusions are provided by the notion of a process, one of the most important and successful ideas in computer science.
+* In either case, a single CPU can appear to execute multiple processes concurrently by having the processor switch among them. The operating system performs this interleaving with a mechanism known as context switching. the transition from one process to another is managed by the operating system kernel.
+* Note that the kernel is not a separate process. Instead, it is a collection of code and data structures that the system uses to manage all the processes.
+* in modern systems a process can actually consist of multiple execution units, called threads. each running in the context of the process and sharing the same code and global data. Multi-threading is also one way to make programs run faster when multiple processors are available
+* Each process has the same uniform view of memory, which is known as its virtual address space. The virtual address space for Linux processes is shown in Figure 1.13.
+* Note that addresses in the figure increase from the bottom to the top.
+
+.. image:: ../static/linux-process-address-space.png
+
+* The virtual address space seen by each process consists of a number of well-defined areas, each with a specific purpose.
+
+    * **Program code and data.** Code begins at the same fixed address for all processes, followed by data locations that correspond to global C variables. The code and data areas are initialized directly from the contents of an executable object file. fixed in size
+    * **Heap.** the heap expands and contracts dynamically at run time as a result of calls to C standard library routines such as **malloc** and **free**.
+    * **Shared libraries.** Holds the code and data for shared libraries such as the C standard library and the math library
+    * **Stack.** the user stack that the compiler uses to implement function calls. Like the heap, the user stack expands and contracts dynamically during the execution of the program. In particular, each time we call a function, the stack grows. Each time we return from a function, it contracts.
+    * **Kernel vinual memory.** Application programs are not allowed to read or write the contents of this area or to directly call functions defined in the kernel code. Instead, they must invoke the kernel to perform these operations.
+
+* A file is a sequence of bytes, nothing more and nothing less. Every I/O device, including disks, keyboards, displays, and even networks, is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as Unix I/O. File abstraction provides applications with a uniform view of all the varied I/O devices that might be contained in the system.
+* The network can be viewed as just another I/O device. With the advent of global networks such as the Internet, copying information from one machine to another has become one of the most important uses of computer systems. applications such as email, instant messaging, the World Wide Web, FTP, and telnet [Telnet is a network protocol used to virtually access a computer and to provide a two-way, collaborative and text-based communication channel between two machines] are all based on the ability to copy information over a network.
+* **Adhaml's Law**: The main idea is that when we speed up one part of a system, the effect on the overall system performance depends on both how significant this part was and how much spedup. This is the major insight of Amdahl’s law— to significantly speed up the entire system, we must improve the speed of a very large fraction of the overall system.
+
+.. image:: ../static/Adhml-law.png
+
+* Throughout the history of digital computers, two demands have been constant driving improvements: (1) we want them to do more (2) and we want them to do faster
+* We use the term concurrency to refer to the general concept of a system with multiple, simultaneous activities, and the term parallelism to refer to the use of concurrency to make a system run faster.
+* Parallelism can be exploited at multiple levels of abstraction in a computer system. We highlight three levels here, working from the highest to the lowest level in the system hierarchy.
+* **(1)Thread-Level Concurrency**: With threads, we can even have multiple control flows executing within a single process. Until recently, most actual computing was done by a single processor, even if that processor had to switch among multiple tasks. This configuration is known as a uniprocessor system.
+* Hyperthreading, sometimes called simultaneous multi-threading, is a technique that allows a single CPU to execute multiple flows of control. **It involves having multiple copies of some of the CPU hardware, such as program counters and register files, while having only single copies of other parts of the hardware, such as the units that perform floating-point arithmetic**
+
+.. image:: ../static/processor-types.png
+
+* **(2) Instruction-Level Parallelism**: pipelining, where the actions required to execute an instruction are partitioned into different steps and the processor hardware is organized as a series of stages, each performing one of these steps. The stages can operate in parallel, working on different parts of different instructions. Processors that can sustain execution rates faster than 1 instruction per cycle are known as superscalar processors. Most modern processors support supcrscalar operation.
+* **(3) Single-Instruction, Multiple-Data (SIMD) Parallelism**: At the lowest level, many modern processors have special hardware that allows a single instruction to cause multiple operations to be performed in parallel. For example, generations of Intel and AMD processors have instructions that can add 8 pairs of single-precision floating-point numbers (C data type float) in parallel. Although some compilers attempt to automatically extract SIMD parallelism from C programs, a more reliable method is to write programs using special vector data types supported in compilers such as (gcc).
+* 
