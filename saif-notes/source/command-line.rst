@@ -9,6 +9,20 @@ Command line
 * ``!!``: A substitution which contains the previous command, some useful invocations: ``$ apt update -> permission denied -> $ sudo !! -> sudo apt update``
 * ``!$``: A substitution which contains the last segment of the previous command: ``$ cd test.py -> test.py not a directory -> $ vim !$ -> vim test.py``
 * ``^\`` **more powerful than** ``^C``: ``^\`` sends ``SIGQUIT`` (default behaviour: terminate + produce a core dump) which can be useful to kill things that normally catch ``^C`` ``(SIGINT)``.
+* Special ``$`` Shell Variables
+
+    * ``$1, $2, $3, ...`` are the positional parameters.
+    * ``$@`` is an array-like construct of all positional parameters, {$1, $2, $3 ...}. Used in docker entrypoint script.
+    * ``$*`` is the IFS expansion of all positional parameters, $1 $2 $3 ....
+    * ``$#`` is the number of positional parameters.
+    * ``$-`` current options set for the shell.
+    * ``$$`` pid of the current shell (not subshell).
+    * ``$_`` most recent parameter (or the abs path of the command to start the current shell immediately after startup).
+    * ``$IFS`` is the (input) field separator.
+    * ``$?`` is the most recent foreground pipeline exit status.
+    * ``$!`` is the PID of the most recent background command.
+    * ``$0`` is the name of the shell or shell script.
+
 * ``exec "$SHELL"``: reload the SHELL in-place
 * ``tail/head [-n numOfLines | -f (following real-time updates inside the file))] [file-name or * (all files here)]``: print last/first number of lines 
 
