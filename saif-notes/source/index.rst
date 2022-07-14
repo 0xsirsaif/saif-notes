@@ -14,7 +14,6 @@ Saif's Notes!
    Books
    Tools
    command-line
-   Finance
    Project-ideas
    Haphazard
    Admin
