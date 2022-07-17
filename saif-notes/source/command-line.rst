@@ -26,6 +26,8 @@ Command line
 * ``exec "$SHELL"``: reload the SHELL in-place
 * ``tail/head [-n numOfLines | -f (following real-time updates inside the file))] [file-name or * (all files here)]``: print last/first number of lines 
 
+* Remove Mysql Completely: ``sudo systemctl stop mysql && sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-* && sudo rm -rf /etc/mysql /var/lib/mysql && sudo apt autoremove && sudo apt autoclean``
+
 
 lsof: list open files
 **********************
