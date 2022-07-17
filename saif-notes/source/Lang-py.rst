@@ -57,4 +57,8 @@ Zip() function: work just like the physical zipper on a bag or pair of jeans.
 - Python >= 3.10: the ``strict=Bool`` argument, PEP 618—Add Optional Length-Checking To zip. to make sure that the function only accepts iterables of equal length.
 - The opposite of ``zip()`` is… well, ``zip()``: It's a zipper, stupid!: use ``zip()`` along with the unpacking operator ``*``
 - Create Dictionary: ``dict(zip(keys, values))``
-- 
+
+
+AsynIO
+----------
+- `Łukasz Langa: import asyncio: Learn Python's AsyncIO <https://www.youtube.com/playlist?list=PLhNSoGM2ik6SIkVGXWBwerucXjgP1rHmB>`_ 
