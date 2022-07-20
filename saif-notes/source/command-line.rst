@@ -55,13 +55,22 @@ apt
 * ``sudo add-apt-repository --remove ppa:something/ppa`` to remove ppa repository
 
 
-Users and Groups
+Users and Groups 
 *****************
 * ``groups`` to show all groups in the system.
 * ``groupadd [group-name]`` create group.
 * ``usermod -aG [group-name] [user-name]`` add user to a group.
+* Difference between ``addgroup and groupadd``?
+* Difference between ``adduser and useradd``?
 
 
 nano
 *****
 * ``ctrl+ s`` and ``ctrl + x`` save and exit.
+
+
+CHOWN:change owner 
+*********************
+* ``chown name_of_new_owner file_name``
+* ``chown newuser:newgroup file_name``
+* ``-R or --recursive``: operate on files and directories recursively.
