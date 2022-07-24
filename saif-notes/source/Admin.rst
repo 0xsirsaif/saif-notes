@@ -8,3 +8,5 @@ System (Ubuntu) Adminstration and Prblems
 * github SSH
 * Perform HDD Fregmentation in Ubuntu??
 * Linux Symlinking?
+* ``pyenv`` sets the default python on the System. ``which python`` prodeces ``.pyenv/shims/python``, need it to be ``/usr/bin/python``?
+* 
