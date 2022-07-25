@@ -7,6 +7,7 @@ System Tools
 
 
    Tool-pytest
+   Tool-pycharm
    Tool-pydantic
    Tool-vim
    Tool-Git
