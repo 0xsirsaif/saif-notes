@@ -22,3 +22,8 @@ Test-Summurization App
 - Query Parameter MetaData: in the ``Query()``, name and description parameters.
 - Query Parameter Alias: ``?item-query=foobaritems`` -> invalid python variable -> use Alias in the ``Query()``: ``alias="item-query"``
 - Exclude from OpenAPI: ``Query(, deprecated=True)``. Deprecated query parameter: ``Query(, include_in_schema=False)``. 
+
+
+Clery With FastAPI
+********************
+- message broker: is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver.

@@ -1,6 +1,8 @@
 Git
 ===========
 
+* Delete local and remote branch: ``git branch -d [branch-name]`` then, ``git push origin --delete [branch-name]``
+
 Remote
 -------
 
