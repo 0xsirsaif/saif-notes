@@ -30,7 +30,7 @@ Use Smaller Base images
 
 Minimize the Number of Layers
 ******************************
-* ``docker history [docker-img-name] ``
+* ``docker history [docker-img-name]``
 * Combine ``ADD``, ``RUN`` and ``COPY`` commands as mush as possible. using the ``&&`` operator for examble. 
 
 Use Unprivileged Containers?
@@ -58,4 +58,3 @@ Understand the Difference Between ENTRYPOINT and CMD
 * The ``CMD`` is easily overridden. Whereas to override the ``ENTRYPOINT`` command, one must specify the ``--entrypoint`` option
 * Thus, ``CMD`` can be used to pass arguments to the ``ENTRYPOINT`` command.
 * If you need to write a starter script for a single executable, you can ensure that the final executable receives the Unix signals by using ``exec`` and ``gosu`` commands: ``exec "$@"`` is an array-like construct of all positional parameters.
-* 

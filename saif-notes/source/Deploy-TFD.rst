@@ -44,5 +44,6 @@ Frappe/Erpnext Containers Deployment - DigitalOcean
 4. ``mkdir ~/.gitops``: Create configuration and resources directory
 
 * Register Domain in DigitalOcean
+
 - Error ? ``domain xxx is already exists`` you are trying to host the domain which is already hosted in our server?
-- 
+

@@ -9,6 +9,7 @@ System Tools
    Tool-pytest
    Tool-pycharm
    Tool-pydantic
+   Tool-Elastic
    Tool-vim
    Tool-Git
    Tool-poetry
